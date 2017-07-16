@@ -1,0 +1,17 @@
+\documentclass{ctexart}
+\usepackage{enumerate}
+\begin{document}
+    \title{编程实现随机字体输出模仿手写计划书}
+    \section*{摘要}
+        通过制造若干手写字体(FlexiFont)的字体文件(.ttf),用Python实现GUI绘制及模拟输出,从而实现对手写的模拟.在条件允许的范围内,可以尝试使用BL-80打印机进行实际打印.
+    \section{计划原因}
+        手写字体的实现已经由FlexiFont实现。但是，经由我实际使用，发现输出的虽然是我的字体，但是与平日书写相差甚远。寻找原因，发现是由于输出字体过于整齐，而手写的每两个文字之间基本上都存在着细微的区别。故我认为，想要完美模拟手写需要调整为多字体和多间距输出。
+    \section{实现过程}
+        \begin{enumerate}
+            \item 使用FlexiFont或其他手写字体生成软件生成约10 份手写字体(测试阶段以英文字母替代)
+            \item 做GUI
+            \item 字体编号，用随机数(<=range)排列，按字对应输出
+            \item 尽量生成PDF
+        \end{enumerate}
+    \
+\end{document}
