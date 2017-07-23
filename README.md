@@ -1,5 +1,3 @@
-# HumanFont
-
 HumanFont Project
 ============
 
