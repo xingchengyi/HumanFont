@@ -1,2 +1,0 @@
-from reportlab.lib.styles import ParagraphStyle
-ParagraphStyle
