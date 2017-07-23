@@ -5,11 +5,11 @@ import random
 import reg_all_Fonts
 import import_path
 def core(output_file_,input_texts,font_size):
-    output_file = output_file_
-    output_file = './output/'+output_file
+    output_file_name = output_file_
+    output_file = './output/'+output_file_name
     output_canvas = Canvas(output_file)
     size=font_size
-    input_text=input_texts.decode('utf-8')
+    input_text=input_texts
     input_len = len(input_text)
 
     reg_all_Fonts.reg_all(output_canvas)
